@@ -1,0 +1,13 @@
+﻿Notas acerca de eventos:
+
+Los eventos en C# son implementados con Delegados. Al instanciar el delegado se usa la palabra reservada event para indicar que es un evento,
+Un método que maneje un evento es llamado <<event handler>> manejador de evento.
+Por convención en .Net los manejadores de evento retornan <<void>> y reciben 2 parámetros: 
+                 El primero es el origen del evento (este es,el objeto publicador),
+                 El segundo es un objeto derivado de <<EventArgs>> con la información del evento
+                 
+Los eventos Implementan el patrón de diseño Observer(publicar/suscribir)
+
+Los eventos, sin embargo, no sólo se utilizan para interfaces gráficas. Los eventos proporcionan un medio apropiado para que los objetos puedan 
+señalizar cambios de estado que pueden resultar útiles para los clientes de ese objeto. Los eventos constituyen unidades importantes para 
+crear clases que se pueden reutilizar en diferentes programas.

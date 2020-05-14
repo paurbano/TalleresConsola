@@ -1,0 +1,24 @@
+﻿Delegados frente a interfaces
+
+Delegados e interfaces son similares en el sentido en que ambos permiten la separación entre especificación e implementación. 
+Varios programadores independientes pueden crear implementaciones compatibles con una especificación de interfaz. 
+De forma similar, un delegado especifica la firma de un método, y los programadores pueden escribir métodos compatibles con la especificación 
+del delegado. un objeto delegado encapsula un método de modo que se pueda llamar de forma anónima
+
+¿Cuándo se deben utilizar interfaces y cuándo delegados?
+
+Los delegados son útiles cuando:
+
+    Se llama a un único método.
+    Una clase necesita varias implementaciones de la especificación del método.
+    Es deseable permitir el uso de un método estático para implementar la especificación.
+    Se desea utilizar un modelo de diseño similar al de los eventos (para obtener más información, vea el Tutorial de eventos).
+    El código que realiza la llamada no necesita conocer u obtener el objeto sobre el que el método está definido.
+    El proveedor de la implementación desea "distribuir" la implementación de la especificación sólo a unos pocos componentes seleccionados.
+    Se desea conseguir una composición fácil.
+
+Las interfaces son útiles cuando:
+
+    La especificación define un conjunto de métodos relacionados a los que se llamará.
+    Una clase normalmente implementa la especificación sólo una vez.
+    El código que realiza la llamada a la interfaz necesita convertir hacia o desde el tipo de la interfaz para obtener otras interfaces o clases.
