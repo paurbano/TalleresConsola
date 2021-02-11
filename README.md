@@ -2,7 +2,7 @@
 A series of tutorials and examples of several topics of programming like (Statements, Arrays, loops, Classes, Objects, etc.) using C#, which provides an overview of the language and the .NET platform
 
 ## List of Projects
-* ![https://github.com/paurbano/TalleresConsola/tree/master/Herencia]Herencia
+* [Herencia](https://github.com/paurbano/TalleresConsola/tree/master/Herencia)
 
 * OReillyFundamentals3.5
 
@@ -71,3 +71,5 @@ A series of tutorials and examples of several topics of programming like (Statem
 * OReillyFundamentalsStructs
 
 * OReillyFundamentals_Colas_Pilas
+
+[Pablo Andrés Urbano](https://www.linkedin.com/in/pablourbanodelacruz)
